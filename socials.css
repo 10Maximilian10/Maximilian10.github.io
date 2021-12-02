@@ -9,7 +9,7 @@ body   {
       background-image: url("cloakscloud.png");
        }
        a {
-           font-size: xx-large;
+           font-size: larger;
            background: none;
           
            display: inline-flex;
