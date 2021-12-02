@@ -27,7 +27,7 @@ body   {
     
     
        }
-       a:active {
+       a:hover {
            transform: translateY(10px);
        }
        .rainbow {
