@@ -27,7 +27,7 @@ body   {
     
     
        }
-       a:focus {
+       a:active {
            transform: translateY(10px);
        }
        .rainbow {
