@@ -23,8 +23,82 @@ body   {
     padding-top: 3px;
     border-bottom: 3px solid white;
     font-weight: 600;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    transition: ease-in 9ms;
        }
        a:hover {
            transform: translateY(10px);
        }
+       .allsocials {
+           border: solid;
+           height: 100%;
+          width: 100%;
+       }
+       .instagrampng {
+           width: 50px;
+           position: relative;
+         top: -50px;
+         right: -25px;
+       }
+       .instabutton {
+           font-size: large;
+            position: relative;
+            top: 100px;
+            border: solid hotpink;
+            border-radius: 20px;
+            background-color: lightskyblue;
+            box-shadow: 1px 1px 8px yellow;
+       }
+       .instagram {
+           color: black;
+       }
+       .instagram:hover {
+           transform: none;
+           cursor: pointer;
+       }
+       .youtubepng {
+           width: 60px;
+           position: relative;
+           right: -25px;
+           top: -130px;
+           
+       }
+    .youtubebutton {
+        position: relative;
+       top: 20px;
+        font-size: large;
+        border-radius: 20px;
+        border: red solid;
+        background-color:white ;
+        color: black 3px;
+        box-shadow: 1px 1px 8px black;
+    }
+    .youtube:hover  {
+transform: none;
+    }
+    .tiktok {
+        font-size: large;
+        border-radius: 20px;
+        box-shadow: 1px 1px 8px blue;
+        outline: none;
+        position: relative;
+        top: -50px;
+    }
+    .tiktokpng {
+        width: 50px;
+        position: relative;
+        top: -170px;
+        right: -20px;
+        
+    }
+    @media (min-device-width:600px) {
+        img[data-src-600px] {
+            content: attr(data-src-600px, url);
+        }
+    }
+    
+    @media (min-device-width:800px) {
+        img[data-src-800px] {
+            content: attr(data-src-800px, url);
+        }
+    }
