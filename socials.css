@@ -94,6 +94,9 @@ transform: none;
 .tiktok1 {
     color:black;
 }
+.tiktok1:hover {
+        transform:none;
+    }
     @media (min-device-width:600px) {
         img[data-src-600px] {
             content: attr(data-src-600px, url);
